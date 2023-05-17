@@ -1,0 +1,107 @@
+@import url(../../../vendor/Railroad/stylesheet.css);
+
+.delivery__content {
+  justify-items: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 110px 0px;
+  max-width: 1224px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+@media screen and (max-width: 680px) {
+  .delivery__content {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+.delivery__title {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 150%;
+/* identical to box height, or 68px */
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  z-index: 1;
+  margin: 0;
+  padding-bottom: 12px;
+}
+
+@media screen and (max-width: 840px) {
+  .delivery__title {
+    font-size: 41px;
+    line-height: 140%;
+  }
+}
+
+.delivery__text {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 150%;
+  /* or 38px */
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #999999;
+  margin: 0;
+  padding-bottom: 42px;
+}
+
+.delivery__text1 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  /* or 35px */
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 33px 8px 33px 8px;
+  border-radius: 25px;
+  z-index: 2;
+  padding: 2rem;
+  background: #151515;
+  /*border-image: linear-gradient(#2FA64F, #151515) 30;
+  border-width: 2px;
+  border-style: solid;*/
+}
+
+.delivery__gradient {
+  max-width: 600px;
+  min-width: 496px;
+  padding: 1rem;
+  position: relative;
+  border-radius: 25px;
+  background: linear-gradient(to right, #2FA64F, #3E3E3E
+  );
+  padding: 3px;
+  margin-bottom: 36px;
+  min-width: 90%;
+}
+
+.delivery__gradient1 {
+  max-width: 600px;
+  min-width: 496px;
+  padding: 1rem;
+  position: relative;
+  border-radius: 25px;
+  background: linear-gradient(to left, #2FA64F, #3E3E3E
+  );
+  padding: 3px;
+  min-width: 90%;
+}
+
+.delivery__span {
+  font-weight: 700;
+}

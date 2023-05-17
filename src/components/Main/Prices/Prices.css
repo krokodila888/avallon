@@ -1,0 +1,98 @@
+@import url(../../../vendor/Railroad/stylesheet.css);
+
+.prices__content {
+  justify-items: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 110px 0px;
+  max-width: 1224px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 138px;
+  padding-bottom: 130px;
+}
+
+@media screen and (max-width: 680px) {
+  .prices__content {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+.prices__title {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 150%;
+/* identical to box height, or 68px */
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  z-index: 1;
+  margin: 0;
+  padding-top: 127px;
+}
+
+@media screen and (max-width: 840px) {
+  .prices__title {
+    font-size: 41px;
+    line-height: 140%;
+  }
+}
+
+.prices__icon {
+  position: absolute;
+  z-index: 0;
+  align-self: center;
+  margin: 0 auto 0 auto;
+  max-width: 98vw;
+}
+
+@media screen and (max-width: 1020px) {
+  .prices__icon {
+    max-width: 95vw;
+  }
+}
+
+.prices__link {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 150%;
+  /* or 39px */
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 33px 8px 33px 8px;
+  border-radius: 25px;
+  z-index: 2;
+  padding: 2rem;
+  background: #151515;
+  cursor: pointer;
+}
+
+.prices__gradient {
+  max-width: 600px;
+  padding: 1rem;
+  position: relative;
+  border-radius: 25px;
+  background: linear-gradient(to bottom, #2FA64F, #151515);
+  padding: 2px;
+}
+
+.prices__text-block {
+  display: flex;
+  flex-direction: row;
+  padding-top: 70px;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+}

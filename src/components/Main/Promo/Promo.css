@@ -1,0 +1,236 @@
+@import url(../../../vendor/Railroad/stylesheet.css);
+
+.promo__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  background-color: #151515;
+  position: relative;
+  min-height: 513px;
+  max-width: 1200px;
+  margin: 117px auto 0 auto;
+  color: white;
+}
+
+.promo__left-block {
+  max-width: 55%;
+}
+
+@media screen and (max-width: 842px) {
+  .promo__left-block {
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .promo__content {
+    margin: 90px 20px 0 20px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .promo__content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .promo__left-block {
+    max-width: 90%;
+  }
+}
+
+/*@media screen and (max-width: 520px) {
+  .promo__content {
+    margin: 90px auto 0 auto;
+  }
+}*/
+
+.promo__span {
+  color: #51A665;
+}
+
+.promo__background-logo {
+  width: 320px;
+  height: 320px;
+  margin-top: 156px;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  z-index: 1;
+  color: #FFFFFF;
+  opacity: 0.2;
+}
+
+.promo__title {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+@media screen and (max-width: 1188px) {
+  .promo__title {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 1106px) {
+  .promo__title {
+    font-size: 44px;
+    line-height: 130%;
+  }
+}
+
+@media screen and (max-width: 876px) {
+  .promo__title {
+    font-size: 40px;
+    line-height: 130%;
+  }
+}
+
+@media screen and (max-width: 842px) {
+  .promo__title {
+    font-size: 36px;
+    line-height: 120%;
+  }
+}
+
+@media screen and (max-width: 604px) {
+  .promo__title  {
+    text-align: center;
+  }
+}
+
+.promo__text {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 150%;
+/* or 38px */
+  letter-spacing: 0.05em;
+  color: #999999;
+}
+
+@media screen and (max-width: 604px) {
+  .promo__text  {
+    text-align: center;
+  }
+}
+
+.promo__last-text-block {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 604px) {
+  .promo__last-text-block {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.promo__text-start {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 150%;
+  /* identical to box height, or 39px */
+  letter-spacing: 0.05em;
+  color: #24B14C;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 604px) {
+  .promo__text-start  {
+    text-align: center;
+  }
+}
+
+.promo__main-pic {
+  width: 555.91px;
+  height: 600px;
+}
+
+.promo__arrow-pic {
+  width: 162.4px;
+  height: 140px;
+}
+
+@media screen and (max-width: 740px) {
+  .promo__arrow-pic {
+    transform: rotate(150deg);
+  }
+}
+
+@media screen and (max-width: 604px) {
+  .promo__arrow-pic {
+    transform: rotate(120deg);
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 1188px) {
+  .promo__main-pic {
+    width: 500px;
+    height: 540px;
+  }
+}
+
+@media screen and (max-width: 1136px) {
+  .promo__main-pic {
+    width: 450px;
+    height: 486px;
+  }
+}
+
+@media screen and (max-width: 1036px) {
+  .promo__main-pic {
+    width: 400px;
+    height: 432px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .promo__main-pic {
+    width: 360px;
+    height: 378px;
+  }
+}
+
+@media screen and (max-width: 796px) {
+  .promo__main-pic {
+    width: 320px;
+    height: 346px;
+  }
+}
+
+@media screen and (max-width: 604px) {
+  .promo__main-pic {
+    width: 290px;
+    height: 310px;
+  }
+}
+
+@media screen and (max-width: 1106px) {
+  .promo__emoji {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .promo__emoji {
+    width: 50px;
+    height: 50px;
+  }
+}
